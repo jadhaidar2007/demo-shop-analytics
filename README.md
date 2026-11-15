@@ -4,7 +4,9 @@ A tiny static coffee-gear shop ("Slow Pour") I built to get hands-on with **Goog
 
 The shop is fake, the tracking is real: every key step of the buying journey is pushed to the `dataLayer` using Google's official GA4 ecommerce format, picked up by GTM and sent to a GA4 property.
 
-**Live site:** https://jadhaidar2007.github.io/demo-shop-analytics/ *(placeholder: update if the repo name differs)*
+**Live site:** https://jadhaidar2007.github.io/demo-shop-analytics/
+
+**Docs:** [Measurement plan](docs/measurement-plan.md) · [GTM container export](gtm/demo-shop-container.json)
 
 ## How it works
 
@@ -33,7 +35,7 @@ Every item carries `item_id`, `item_name`, `item_category`, `price`, `quantity`.
 
 ![GA4 funnel exploration: view_item → add_to_cart → begin_checkout → purchase](docs/funnel.png)
 
-*(Replace with your screenshot: `docs/funnel.png`.)*
+*(Screenshot goes in `docs/funnel.png`.)*
 
 ## Insights & what I'd improve
 
@@ -66,6 +68,8 @@ js/cart.js               localStorage cart
 js/tracking.js           all dataLayer pushes
 js/shop.js               page logic
 img/                     SVG product illustrations
+gtm/                     GTM container export (import with Admin → Import Container)
+docs/measurement-plan.md events, parameters, triggers, KPIs
 ```
 
 ## Setting up your own copy

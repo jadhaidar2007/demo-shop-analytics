@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Hand coffee grinder with a crank handle">
+  <rect width="400" height="400" fill="#dde2d3"/>
+  <ellipse cx="190" cy="346" rx="105" ry="13" fill="#c4cbb7"/>
+  <!-- crank -->
+  <path d="M190 126V82h104" fill="none" stroke="#2b2620" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="298" cy="82" r="15" fill="#b8481f" stroke="#2b2620" stroke-width="4"/>
+  <!-- body -->
+  <rect x="150" y="124" width="80" height="26" rx="6" fill="#8aa08f" stroke="#2b2620" stroke-width="4"/>
+  <rect x="140" y="148" width="100" height="168" rx="10" fill="#3b4a3f" stroke="#2b2620" stroke-width="4"/>
+  <rect x="140" y="214" width="100" height="10" fill="#8aa08f" stroke="#2b2620" stroke-width="3"/>
+  <!-- base -->
+  <rect x="130" y="312" width="120" height="30" rx="8" fill="#2b2620"/>
+  <rect x="160" y="170" width="60" height="6" rx="3" fill="#fff" opacity=".18"/>
+</svg>

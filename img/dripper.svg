@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Ceramic pour-over dripper resting on a mug">
+  <rect width="400" height="400" fill="#eadfcc"/>
+  <ellipse cx="200" cy="344" rx="125" ry="14" fill="#d4c4aa"/>
+  <!-- mug -->
+  <path d="M118 236h164v66a44 44 0 0 1-44 44h-76a44 44 0 0 1-44-44z" fill="#f7f2ea" stroke="#2b2620" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M282 252h12a24 24 0 0 1 0 48h-12" fill="none" stroke="#2b2620" stroke-width="4"/>
+  <!-- dripper -->
+  <path d="M98 124h204l-46 112H144z" fill="#b8481f" stroke="#2b2620" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="90" y="110" width="220" height="16" rx="6" fill="#cf5d33" stroke="#2b2620" stroke-width="4"/>
+  <path d="M176 160l-6 34M224 160l6 34" stroke="#2b2620" stroke-width="3" stroke-linecap="round" opacity=".35"/>
+</svg>
